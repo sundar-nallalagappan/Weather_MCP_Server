@@ -20,5 +20,4 @@ dependencies = [
     "semantic-kernel[mcp]>=1.36.0",
 ]
 [tool.setuptools.packages.find]
-where = ["."]
-include = ["*"]
+where = ["src"]
